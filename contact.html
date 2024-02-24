@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>お問い合わせ｜KUZIRA CAFE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact｜KUZIRA CAFE</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
@@ -13,49 +14,49 @@
         </div>
         <nav class="nav">
             <ul>
-                <li><a href="index.html">ホーム</a></li>
-                <li><a href="index.html#news">お知らせ</a></li>
-                <li><a href="index.html#shop">店舗情報</a></li>
-                <li><a href="access.html">アクセス</a></li>
-                <li><a href="menu.html">メニュー</a></li>
-                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#news">News</a></li>
+                <li><a href="index.html#shop">Opening Hours</a></li>
+                <li><a href="access.html">Access & Map</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- ヘッダーここまで -->
-    <h1 class="hero contact">お問い合わせ</h1>
+    <h1 class="hero contact">Resevations and Inquiry</h1>
     <!-- メイン -->
     <main>
         <form action="result.html">
             <p>
-                <label for="kind">お問い合わせの種類</label><br>
+                <label for="kind">Type of Inquiry</label><br>
                 <select name="kind" id="kind">
-                    <option value="1">ご予約</option>
-                    <option value="2">イベントに関するお問い合わせ</option>
-                    <option value="3">その他</option>
+                    <option value="1">Reservation</option>
+                    <option value="2">Inquiry about an event</option>
+                    <option value="3">Other</option>
                 </select>
             </p>
             <p>
-                 はじめてのご来店ですか？<br>
-                 <label><input type="radio" name="first" value="yes" checked>はい</label><br>
-                 <label><input type="radio" name="first" value="no">いいえ</label>
+                Is this your first visit?<br>
+                 <label><input type="radio" name="first" value="yes" checked>Yes</label><br>
+                 <label><input type="radio" name="first" value="no">No, this is not my first visit.</label>
             </p>
             <p>
-                当カフェをお知りになったきっかけは？<br>
-                <label><input type="checkbox" name="how" value="friend">知り合いの紹介で</label><br>
-                <label><input type="checkbox" name="how" value="magazine">SNS、Webサイト、雑誌などを見て</label>
+                How did you hear about us?<br>
+                <label><input type="checkbox" name="how" value="friend">Through an acquaintance.</label><br>
+                <label><input type="checkbox" name="how" value="magazine">Through SNS, website, magazine, etc.</label>
             </p>
             <p>
-                <label for="subject">お問い合わせの件名</label><br>
-                <input type="text" name="subject" placeholder="タイトル" id="subject">
+                <label for="subject">Subject</label><br>
+                <input type="text" name="subject" placeholder="Title" id="subject">
             </p>
             <p>
-                <label for="message">お問い合わせの具体的な内容</label><br>
+                <label for="message">Message - Specifics of your inquiry</label><br>
                 <textarea name="message" id="message">
                 </textarea>
             </p>
             <p class="submit">
-                <input type="submit" value="送信">
+                <input type="submit" value="Submit">
             </p>
         </form>
     </main>
@@ -63,7 +64,7 @@
     <!--  フッター-->
     <footer>
         <div class="gotop">
-            <a href="#top"><image src="images/gotop.svg" alt="ページトップへ戻る"></a>
+            <a href="#top"><image src="images/gotop.svg" alt="Go top of the page"></a>
         </div>
         <p class="copyright">&copy; KUZIRA CAFE</p>
     </footer>
